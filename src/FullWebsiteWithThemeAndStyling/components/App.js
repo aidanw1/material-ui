@@ -12,6 +12,8 @@ import Header from "./ui/Header";
 import Revolution from "./Revolution";
 import About from "./About";
 import Contact from "./Contact";
+import Estimate from "./Estimate";
+
 function App() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [value, setValue] = useState(0);
@@ -29,7 +31,7 @@ function App() {
           <Route path="/revolution" component={Revolution} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/estimate" component={() => <div>Estimate</div>} />
+          <Route path="/estimate" component={Estimate} />
         </Switch>
         <Footer value={value} setValue={setValue} selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
       </BrowserRouter>
