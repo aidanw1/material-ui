@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import ButtonArrow from "./ui/ButtonArrow";
-import customSoftwareIcon from "../assets/Custom Software Icon.svg";
+import customSoftwareIcon from "../assets/customsoftware.svg";
 import mobileAppsIcon from "../assets/mobileIcon.svg";
 import websitesIcon from "../assets/websiteIcon.svg";
 const useStyles = makeStyles((theme) => ({
